@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    /* background-color: #24252A; */
 }
 
 li,
@@ -54,4 +54,53 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8)
+}
+
+.portrait {
+    padding-top: 150px;
+}
+
+#about_title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about_article {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.pic_about {
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+.skills h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.projects p {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.4;
 }
