@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" type="text/css" rel="stylesheet">
+    <script defer src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -74,7 +75,18 @@
 
     <section class="skills">
         <h2>Skills</h2>
-        <img src="./images/html.jpg" alt="HTML logo" height="100" width="100">
+        <button data-modal-target="#modal"><img src="./images/html.jpg" alt="HTML logo" height="100"
+                width="100"></button>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title">HTML</div>
+                <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+                I peed in the pool!
+            </div>
+        </div>
+        <div id="overlay"></div>
         <img src="./images/CSS-Logo.jpg" alt="CSS logo" height="100" width="100">
         <img src="./images/JavaScript_Logo.png" alt="Javascript logo" height="100" width="100">
         <img src="./images/Node_logo_NodeJS.png" alt="Node logo" height="100" width="100">
@@ -99,7 +111,8 @@
     </section>
 
 
-    <script src="script.js"></script>
+
+
 </body>
 
 </html>
