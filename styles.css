@@ -115,8 +115,10 @@ button:hover {
     border-radius: 10px;
     z-index: 10;
     background-color: white;
-    width: 500px;
+    width: 900px;
+    height: 500px;
     max-width: 80%;
+
 }
 
 .modal.active {
@@ -134,6 +136,7 @@ button:hover {
 .title {
     font-size: 1.25rem;
     font-weight: bold;
+    padding-left: 40%
 }
 
 .close-button {
@@ -143,10 +146,14 @@ button:hover {
     background: none;
     font-size: 1.25rem;
     font-weight: bold;
+    color: black;
 }
 
 .modal-body {
     padding: 10px 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
 
 #overlay {
@@ -164,4 +171,16 @@ button:hover {
 #overlay.active {
     opacity: 1;
     pointer-events: all;
+}
+
+.site-info {
+    display: flex;
+}
+
+.site-info p {
+    padding: 15px;
+}
+
+a {
+    color: darkblue;
 }
