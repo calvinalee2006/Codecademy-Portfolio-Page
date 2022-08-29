@@ -105,6 +105,12 @@ button:hover {
     line-height: 1.4;
 }
 
+.tech-box {
+    display: flex;
+}
+
+.tech-title {}
+
 .modal {
     position: fixed;
     top: 50%;
