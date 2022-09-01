@@ -60,6 +60,8 @@ button:hover {
     padding-top: 150px;
 }
 
+/* About section */
+
 #about_title {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -105,11 +107,38 @@ button:hover {
     line-height: 1.4;
 }
 
-.tech-box {
-    display: flex;
+#direction {
+    text-align: center;
 }
 
-.tech-title {}
+.tech-group {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f4f4f4;
+    justify-content: space-between;
+    height: 490px;
+    width: 100%;
+}
+
+.tech-box {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 5px black solid;
+    width: 600px;
+    height: 220px;
+}
+
+.tech-title {
+    border-bottom: 5px border black;
+}
+
+#education_title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
 
 .modal {
     position: fixed;
