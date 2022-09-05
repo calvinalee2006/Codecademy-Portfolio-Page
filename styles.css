@@ -140,7 +140,8 @@ button:hover {
     padding-top: 20px;
 }
 
-.modal {
+.modal,
+.modul2 {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -169,9 +170,10 @@ button:hover {
 }
 
 .title {
-    font-size: 1.25rem;
+    font-size: 18px;
     font-weight: bold;
-    padding-left: 40%
+    padding-left: 40%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .close-button {
@@ -184,7 +186,8 @@ button:hover {
     color: black;
 }
 
-.modal-body {
+.modal-body,
+.modal-body2 {
     padding: 10px 15px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
