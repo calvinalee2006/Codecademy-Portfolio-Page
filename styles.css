@@ -224,6 +224,20 @@ a {
     color: darkblue;
 }
 
+.close-button {
+    float: right;
+}
+
+.Cmodal3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    text-align: center;
+    margin: 50px;
+}
+
 #contact-me {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -232,15 +246,53 @@ a {
 }
 
 #contact-me p {
-    font-size: 18px;
+    font-size: 25px;
     margin-top: -10px;
+    padding-bottom: 20px;
 }
 
 .contact_modle {
     font-family: 'Montserrat', sans-serif;
-
 }
 
-#contact_form {
-    font-family: 'Montserrat', sans-serif
+#name {
+    width: 65%;
+    font-size: 30px;
+}
+
+#company {
+    width: 65%;
+    font-size: 30px;
+}
+
+#phone {
+    width: 65%;
+    font-size: 30px;
+}
+
+#e-mail {
+    width: 65%;
+    font-size: 30px;
+}
+
+#comments {
+    width: 65%;
+    font-size: 30px;
+}
+
+#comments {
+    width: 65%;
+    font-size: 30px;
+}
+
+#submit {
+    width: 65%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.my-info a {
+    font-size: 40px;
+    color: black;
+    padding: 10px
 }
