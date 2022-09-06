@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a712c12ed7.js" crossorigin="anonymous"></script>
     <title>Portfolio Page</title>
 </head>
 
@@ -24,7 +25,6 @@
                 <li><a href="Hobbies">Hobbies</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
     </header>
 
     <div class=pic_about>
@@ -172,7 +172,6 @@
 
                 <button data-modal-target="#modal2"><img src="./images/react-banner.png" alt="React logo" height="85"
                         width="85"></button>
-
                 <div class="modal" id="modal2">
                     <div class="modal-header">
                         <div class="title">React</div>
@@ -234,6 +233,37 @@
             </div>
             <div id="overlay"></div>
     </section>
+
+    <button data-modal-target="#modal3">Contact Me</button>
+    <div class="modal" id="modal3">
+        <button data-close-button class="close-button">&times;</button>
+        <div class="contact-container">
+            <div id="contact-me">
+                <h2>Contact Me!</h2> <br>
+                <p>I would love to talk and get to know you! </p>
+            </div>
+            <div class="contact_modle">
+                <div contact-info>
+                    <form id="contact_form">
+                        <input type="text" id="name" name="name" placeholder="Name"><br />
+                        <input type="text" id="company" name="company" placeholder="Company"><br />
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number"><br />
+                        <input type="text" id="e-mail" name="e-mail" placeholder="E-mail"><br />
+                        <textarea id="comments" name="Comments" placeholder="comments"
+                            style="height:170px"></textarea><br />
+                        <input type="submit" value="Submit">
+                    </form>
+                    <div class="my-info">
+                        <i class="fa-solid fa-location-dot"></i><br />
+                        <i class="fa-solid fa-square-envelope"></i><br />
+                        <i class="fa-brands fa-github"></i><br />
+                        <i class="fa-brands fa-linkedin"></i><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 
 </body>

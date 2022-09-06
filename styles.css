@@ -223,3 +223,24 @@ button:hover {
 a {
     color: darkblue;
 }
+
+#contact-me {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contact-me p {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.contact_modle {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#contact_form {
+    font-family: 'Montserrat', sans-serif
+}
