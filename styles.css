@@ -229,7 +229,7 @@ a {
 }
 
 .Cmodal3 {
-    padding: 20px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -243,16 +243,19 @@ a {
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
+    background-color: #f4f4f4;
 }
 
 #contact-me p {
     font-size: 25px;
     margin-top: -10px;
     padding-bottom: 20px;
+    background-color: #f4f4f4;
 }
 
 .contact_modle {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
 }
 
 #name {
