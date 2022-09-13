@@ -10,7 +10,7 @@ a,
 button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.2em;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -32,7 +32,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 4em;
 }
 
 .nav_links li a {
@@ -47,7 +47,7 @@ button {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125em;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -65,13 +65,13 @@ button:hover {
 #about_title {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125em;
 }
 
 .about_article {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.125em;
     letter-spacing: 2px;
     line-height: 1.4;
 }
@@ -79,13 +79,13 @@ button:hover {
 .pic_about {
     display: flex;
     background-color: #f4f4f4;
-    padding: 40px;
+    padding: 2.5em;
 }
 
 .skills h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125em;
     padding-top: 20px;
 }
 
@@ -96,13 +96,13 @@ button:hover {
 .projects h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125em;
 }
 
 .projects p {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.125em;
     letter-spacing: 2px;
     line-height: 1.4;
 }
@@ -136,7 +136,7 @@ button:hover {
 #education_title {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125em;
     padding-top: 20px;
 }
 
@@ -170,7 +170,7 @@ button:hover {
 }
 
 .title {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
     padding-left: 40%;
     font-family: 'Montserrat', sans-serif;
@@ -189,7 +189,7 @@ button:hover {
 .modal-body,
 .modal-body2 {
     padding: 10px 15px;
-    font-size: 18px;
+    font-size: 1.125em;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -217,7 +217,7 @@ button:hover {
 .site-info p {
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 a {
@@ -260,42 +260,42 @@ a {
 
 #name {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 #company {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 #phone {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 #e-mail {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 #comments {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 #comments {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 #submit {
     width: 65%;
-    font-size: 30px;
+    font-size: 1.875em;
     margin-bottom: 10px;
 }
 
 .my-info a {
-    font-size: 40px;
+    font-size: 2.5em;
     color: black;
     padding: 10px
 }
